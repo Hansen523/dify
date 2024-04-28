@@ -1,0 +1,4 @@
+model: gte-base-768
+model_type: text-embedding
+model_properties:
+  context_size: 4096
