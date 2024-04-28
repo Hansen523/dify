@@ -1,0 +1,151 @@
+
+> dify-web@0.6.5 start
+> cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && cross-env PORT=$npm_config_port HOSTNAME=$npm_config_host node .next/standalone/server.js
+
+   ▲ Next.js 14.1.0
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+
+ ✓ Ready in 99ms
+ ⨯ Error: Cannot find module '/root/workspace/dify/web/.next/standalone/.next/server/app/_not-found.js'
+Require stack:
+- /root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/require.js
+- /root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/next-server.js
+- /root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/next.js
+- /root/workspace/dify/web/.next/standalone/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at /root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at mod.require (/root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at requirePage (/root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/require.js:109:84)
+    at /root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/load-components.js:74:84
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadComponentsImpl (/root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/load-components.js:74:26) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/require.js',
+    '/root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/next-server.js',
+    '/root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/next.js',
+    '/root/workspace/dify/web/.next/standalone/server.js'
+  ]
+}
+
+> dify-web@0.6.5 start
+> cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && cross-env PORT=$npm_config_port HOSTNAME=$npm_config_host node .next/standalone/server.js
+
+   ▲ Next.js 14.1.0
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+
+ ✓ Ready in 107ms
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+
+> dify-web@0.6.5 start
+> cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && cross-env PORT=$npm_config_port HOSTNAME=$npm_config_host node .next/standalone/server.js
+
+node:internal/modules/cjs/loader:943
+  throw err;
+  ^
+
+Error: Cannot find module 'stream/web'
+Require stack:
+- /root/workspace/dify/web/.next/standalone/node_modules/next/dist/compiled/@edge-runtime/primitives/load.js
+- /root/workspace/dify/web/.next/standalone/node_modules/next/dist/compiled/@edge-runtime/primitives/index.js
+- /root/workspace/dify/web/.next/standalone/node_modules/next/dist/compiled/@edge-runtime/ponyfill/index.js
+- /root/workspace/dify/web/.next/standalone/node_modules/next/dist/telemetry/storage.js
+- /root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/lib/router-server.js
+- /root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/lib/start-server.js
+- /root/workspace/dify/web/.next/standalone/server.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+    at /root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/require-hook.js:55:36
+    at Function.Module._load (node:internal/modules/cjs/loader:773:27)
+    at Module.require (node:internal/modules/cjs/loader:1012:19)
+    at Module.mod.require (/root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/cjs/helpers:93:18)
+    at Object.<anonymous> (/root/workspace/dify/web/.next/standalone/node_modules/next/dist/compiled/@edge-runtime/primitives/load.js:39:18)
+    at Module._compile (node:internal/modules/cjs/loader:1108:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/root/workspace/dify/web/.next/standalone/node_modules/next/dist/compiled/@edge-runtime/primitives/load.js',
+    '/root/workspace/dify/web/.next/standalone/node_modules/next/dist/compiled/@edge-runtime/primitives/index.js',
+    '/root/workspace/dify/web/.next/standalone/node_modules/next/dist/compiled/@edge-runtime/ponyfill/index.js',
+    '/root/workspace/dify/web/.next/standalone/node_modules/next/dist/telemetry/storage.js',
+    '/root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/lib/router-server.js',
+    '/root/workspace/dify/web/.next/standalone/node_modules/next/dist/server/lib/start-server.js',
+    '/root/workspace/dify/web/.next/standalone/server.js'
+  ]
+}
+
+> dify-web@0.6.5 start
+> cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && cross-env PORT=$npm_config_port HOSTNAME=$npm_config_host node .next/standalone/server.js
+
+   ▲ Next.js 14.1.0
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+
+ ✓ Ready in 115ms
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
+Invalid languages: *
