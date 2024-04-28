@@ -16,6 +16,6 @@ def test_validate_provider_credentials():
 
     provider.validate_provider_credentials(
         credentials={
-            'dashscope_api_key': os.environ.get('TONGYI_DASHSCOPE_API_KEY')
+            'inscode_api_key': os.environ.get('inscode_api_key')
         }
     )

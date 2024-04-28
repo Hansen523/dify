@@ -84,7 +84,7 @@ class InscodeTextEmbeddingModel(_CommonInscode, TextEmbeddingModel):
                 }, json=params, stream=False)
 
                 if response.status_code==200:
-                    embeddings.append(json.loads(response.text)["data"][0])
+                    embeddings.append(json.loads(response.text)["data"][0]["embedding"])
             except Exception as e:
                 print(e)
 
