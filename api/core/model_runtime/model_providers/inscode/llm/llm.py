@@ -94,7 +94,9 @@ class InscodeLargeLanguageModel(LargeLanguageModel):
 
         api_key = credentials.get("inscode_api_key")
         api_url = credentials.get("inscode_api_url",
-                                  "https://inscode-ai-api.node.inscode.run") + "/api/v1/vl/completions"
+                                  "https://inscode-ai-api.node.inscode.run") + "/api/v1/chat/completions"
+                      
+        print(f"api url: {api_url}")
 
         mode = self.get_model_mode(model, credentials)
 
