@@ -67,8 +67,7 @@ class InscodeTextEmbeddingModel(_CommonInscode, TextEmbeddingModel):
     @staticmethod
     def embed_documents(credentials_kwargs: dict, model: str, texts: list[str]) -> tuple[list[list[float]], int]:
         api_key = credentials_kwargs.get("inscode_api_key")
-        api_url = credentials_kwargs.get("inscode_api_url",
-                                         "https://inscode-ai-api.node.inscode.run") + "/api/v1/embeddings"
+        api_url = credentials_kwargs.get("inscode_api_url", "https://inscode-ai-api.node.inscode.run") + "/api/v1/embeddings"
 
         embeddings = []
         embedding_used_tokens = 0
@@ -76,6 +75,7 @@ class InscodeTextEmbeddingModel(_CommonInscode, TextEmbeddingModel):
             try:
                 params = {
                     "content": text,
+                    "split": "false",
                     "dim": 1024 if "_1024" in model else 768
                 }
                 response = requests.post(api_url, headers={
